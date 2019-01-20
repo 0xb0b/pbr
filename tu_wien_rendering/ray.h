@@ -1,11 +1,10 @@
 /* ray.h for test1, first test scene */
-#define DEPTH 8		/* max ray tree depth */
-#define SIZE 1024	/* resolution of picture in x and y */
-#define AOV 48		/* total angle of view in degrees */
-#define NSPHERE 5	/* number of spheres */
+#define DEPTH 8   /* max ray tree depth */
+#define SIZE 1024 /* resolution of picture in x and y */
+#define AOV 48    /* total angle of view in degrees */
+#define NSPHERE 5 /* number of spheres */
 
-//AMBIENT = {.02, .02, .02};	/* ambient light color */
-AMBIENT = {.1, .1, .1};	/* ambient light color */
+AMBIENT = {.02, .02, .02}; /* ambient light color */
 
 /* sphere: x y z  r g b  rad  kd ks kt kl  ir */
 SPHERE = {
